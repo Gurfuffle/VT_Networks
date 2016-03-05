@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Contact &bull; VT Networks</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel=" icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="reference.css" />	
+	<link rel="stylesheet" type="text/css" href="contact.css" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="user-scalable=0;"/>	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/main.js"></script>	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.anchor.js" type="text/javascript"></script>
+	 
+
+	<script>
+	$(document).ready(function(){
+	 
+	$('#submit').click(function(){
+	 
+	$.post("php/form.php", $("#mycontactform").serialize(),  function(response) {
+	$('#success').html(response);
+	//$('#success').hide('slow');
+	});
+	return false;
+	 
+	});
+	 
+	});
+	
+	$(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Disable" the horizontal scroll.
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); 
+</script>
+		
+</head>
+<body>
+
+	<div id="nav">
+		<button class="minimenu"></button>
+		<div id="nav_links">
+			<a href="http://www.vtnetworks.ie">Home</a>
+			<a href="iot">Internet of Things</a>
+			<a href="sigfox">SIGFOX Technology</a>
+			<a href="solutions">Solutions</a>
+			<a href="news">News</a>	
+			<a href="faq">FAQ</a>			
+			<a href="contact">Contact</a>
+		</div>
+	</div>
+	<a name="top"></a>
+				
+	<a href="http://www.vtnetworks.ie"><div id="logo"><img src="images/logo1.png" alt="Sigfox_Logo"/></div></a>
+
+	<div id="s3" class="scroll">
+		<div id="s3quote"></div>
+	</div>
+			
+	<div id="desctop">
+		<h2>Conact Us</h2>
+			<br />
+			We are located beside The Old Distillery. Map Below:
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.681454714456!2d-6.273314500000006!3d53.34895820000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c2976f2d545%3A0xd3c10ebd86549971!2sThe+Old+Distillery%2C+Beresford+St%2C+Anne+St+N%2C+Dublin+7!5e0!3m2!1sen!2sie!4v1436094402783"  frameborder="0" style="border:0" allowfullscreen></iframe>
+			<br />
+
+			
+			<form action="" method="post" id="mycontactform" >
+			<h3>Submit your Question Here.</h3>
+			
+			<div id="formname">
+			<label for="name">Name:</label>	
+			<br>
+			<input type="text" name="name" id="name" />
+			</div>
+			<br/>
+			
+			<div id="formemail">
+			<label for="email">Email:</label>
+			<br/>
+			<input type="text" name="email" id="email" />
+			</div>
+			<br/>
+			<div id="formmessage">
+			<label  for="message">Message:</label><br/>
+			</div>
+			<textarea name="message" id="message"></textarea><br/>
+			<input type="button" value="Send" id="submit" /><input type="reset" value="Reset" id="submit"/>
+			
+			<div id="success" style="color:#1B7D8F;"></div>
+			  
+
+		</form>
+	<br>
+	
+	<div id="details">
+	<h3>Our Contact Details</h3>
+
+	<img src="images/locationicon.jpg" alt="address" />
+	<p><b>Address:</b>
+	
+	<!--<b>HQ:</b> Kelvin Grove, Bealnamulla, Athlone, Co. Roscommon, Ireland-->
+	<br>
+	<b>Dublin Office:</b> The Old Distillery Building, Beresford Street, Dublin 7, Ireland
+	</p>
+	
+	<br>
+	<br>
+	<img src="images/emailicon.jpg" alt="email" />
+	<b>Email:</b><br>
+	info@vtnetworks.ie 
+	<br><br>
+	<br>
+	
+	<img src="images/phoneicon.jpg" alt="phone" />
+	<b>Telephone:</b><br>
+    +353 (0)1 5328958 
+	
+	</div>	
+	</div>
+	
+
+	
+
+<div id="footer">
+   <div class="column-left"><div class="dark"><h2>Overview</h2>
+   <p>VT is the SIGFOX Network Operator In Ireland.
+   Our network is a country wide Ultra Narrow band telecoms network 
+   designed specifically for M2M & IoT communications.</p>	 
+   <a href="about">About Us</a>
+<br>
+   <a href="jobs">Job Openings</a>
+   </div></div>
+   
+   <div class="column-center"><div class="dark"><h2>News</h2>
+	<b> </b>
+	<br/>
+	<p> </p>
+	<a href="http://businessetc.thejournal.ie/how-iot-will-help-your-life-2566163-Jan2016/" target="_blank">Read More</a>
+   </div></div>
+ 
+   <div class="column-right"><div class="dark"><h2>Contact</h2>
+<!--<b>HQ:</b> Kelvin Grove, Bealnamulla, Athlone, Co. Roscommon, Ireland<br>-->
+			<b>Dublin Office:</b> The Old Distillery Building, Beresford Street, Dublin 7, Ireland
+			<br/>
+	<b>Phone:</b> +353 (0)1 5328958<br>
+		<b>Email:</b> info@vtnetworks.ie<br>
+		<br><div id="center">
+		<a href="http://www.facebook.com/vtnetworksiot"><img src="images/social/facebook.png" class="desaturate" alt="facebook" title="Like Us on Facebook"/></a>
+		<a href="http://www.linkedin.com/company/vt-networks?expanded=true&trk=mini-profile"><img src="images/social/linkedin.png" class="desaturate" alt="linkedin" title="Connect with us on LinkedIn"/></a>
+		<a href="http://plus.google.com/+VtnetworksIeiot/posts"><img src="images/social/g.png" class="desaturate" alt="google+" title="Add Us on Google+"/></a>
+	</div></div></div>
+
+	<div id="finalcol">
+	Web Design Copyright &copy; Web Shed Web Design.
+	</div>
+   
+   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-67617747-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+<!--Site Design Copyright Web Shed Web Design (Jeremy Rigney)-->

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>FAQ &bull; VT Networks</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel=" icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="reference.css" />	
+	<link rel="stylesheet" type="text/css" href="faq.css" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="user-scalable=0;"/>	
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	 
+	
+	<script>
+var list = document.querySelectorAll('input[type=checkbox]');
+for (var item of list) {
+    item.checked = false;
+}
+	   
+	 $(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});	
+	}); 
+	
+	   
+	$(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Disable" the horizontal scroll.
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+});
+
+
+
+</script>
+		
+</head>
+<body>
+
+	<div id="nav">
+		<button class="minimenu"></button>
+		<div id="nav_links">
+			<a href="http://www.vtnetworks.ie" >Home</a>
+			<a href="iot">Internet of Things</a>
+			<a href="sigfox">SIGFOX Technology</a>
+			<a href="solutions">Solutions</a>
+			<a href="news">News</a>
+			<a href="faq">FAQ</a>
+			<a href="contact">Contact</a>	
+		</div>
+	</div>
+	<a name="top"></a>
+	
+	<a href="http://www.vtnetworks.ie"><div id="logo"><img src="images/logo1.png"/></div></a>
+
+	<div id="s3" class="scroll">
+		<div id="s3quote"></div>
+	</div>
+		<a href="#" class="scrollToTop"><img src="images/uparrow.png" /></a>
+		
+		
+		
+	<div id="desctop">
+	
+	
+	<h2>Frequently Asked Questions</h2>
+	<br>
+	<!--First Heading Below-->
+	<h3>SIGFOX in a Nutshell</h3>
+		
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question"/>
+		<label for="question">What services do VT Networks offer?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>VT Networks is the SIGFOX Network Operator for Ireland. SIGFOX is a telecom technology that offers a wireless data transport service specifically tailored for IoT applications : 
+			<ul><li>
+			Short Messages 0 to 12 Bytes
+			</li><li>
+			Low to medium periodicity 0 to 140 messages per day.
+			</li><li>
+			Duplex service on demand
+			</li><li>
+			Additionally, VT Networks offers a SIGFOX Cloud service (data storage, service maps, management interface)
+			</li></ul>
+			</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question2"/>
+		<label for="question2">What does VT Networks sell?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>VT Networks offers low power connectivity at a fraction of the cost comparing to traditional networks, such as GSM
+			<br>
+			VT Networks sell subscriptions to access the SIGFOX IoT network in Ireland
+			<br>
+			VT Networks do not sell or resell connected objects or application. We sell connectivity</p>
+		</div>
+	
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question3"/>
+		<label for="question3">Is it true that VT's SIGFOX connectivity does not support downlink?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Of course NOT! This is competitor bashing! SIGFOX does offer full and operational on demand Downlink service 
+			<br>
+			SIGFOX Downlink implementation is smart:
+			<ul><li>
+			DL is not mandatory (cost & battery optimization)
+			</li><li>
+			DL is flexible
+			</li><li>
+			DL implementation saves device battery
+			</li><li>
+			DL is secure (no spoofing)
+			</li><ul>
+			</p>
+		</div>
+	</div>
+	
+	<br>	
+	<br>
+	
+	<!--Second Heading below-->
+	<h3>Getting Connected to VT's SIGFOX Network</h3>
+		
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question4"/>
+		<label for="question4">How do I subscribe?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>
+			Contact info@vtnetworks.ie
+			</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question5"/>
+		<label for="question5">How do I buy products?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Numerous SIGFOX-ready products are available , contact VT Networks for further detail and direction on how you can purchase products.</p>
+		</div>
+	</div>
+	
+	<br>
+	<br>
+	
+	<!--Start of Heading 3-->
+	<h3>Data Access</h3>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question6"/>
+		<label for="question6">Where is my data stored? Is it always available?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Objects data is stored on VT's SIGFOX Cloud for one year, due to legal obligation. During that period, data is accessible and can be retrieved via GUI access or API request.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question7"/>
+		<label for="question7">How do I know new data is available?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Upon new message reception, VT's SIGFOX Cloud performs automatic push to Customer server (HTTPS callback).</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question8"/>
+		<label for="question8">How can I access my data?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Data is stored within VT's SIGFOX cloud and can be accessed via a unique customer log in.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question9"/>
+		<label for="question9">When is my data available?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Data is available as soon as it is received by VT's SIGFOX Network, which is typically a few seconds after emission by the issuing object.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question10"/>
+		<label for="question10">How do I manage my object pool?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>VT's SIGFOX Cloud provides tools and methods to manage devices individually (e.g. message query) or large number of devices also called device fleet. (e.g. registration, configuration, statistics, etc.) </p>
+		</div>
+	</div>
+	
+	<br>
+	<br>
+
+	<!--Start of Heading 4-->
+	<h3>Interference Resistance</h3>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question11"/>
+		<label for="question11">Are there a lot of systems using the ISM band?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>ISM band is a shared band with regulated access constraints designed for a fair share between users.<br><br>
+			SIGFOX has engineered its technology for optimal usage of the shared ISM resource (UNB, patented multiplexing mechanism, massive diversity)
+			</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question12"/>
+		<label for="question12">Why is SIGFOX claiming resistance to interference?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Interference resistance is deep in SIGFOX DNA: it is conferred by the Ultra Narrow Band (UNB) technology, which concentrates the energy</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<!--Start of Heading 5-->
+	<h3>Jamming Resistance</h3>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question13"/>
+		<label for="question13">Can SIGFOX be jammed?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>All systems can be jammed! It just takes a lot of power to jam SIGFOX!</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question14"/>
+		<label for="question14">Can I easily jam a SIGFOX device with a cellular jammer?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Cellular jammers do not work against SIGFOX technology. SIGFOX connectivity has significant application in the security industry.</p>
+		</div>
+	</div>
+
+	<br>
+	<br>	
+	
+	<!--Start of Heading 6-->
+	<h3>Security</h3>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question15"/>
+		<label for="question15">Is my data protected inside the network?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>SIGFOX network is private and WAN links are encrypted and authenticated through VPNs.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question16"/>
+		<label for="question16">Is encryption implemented?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>SIGFOX provides authentication. Encryption can be implemented in the applicative layer.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question17"/>
+		<label for="question17">Can a device be remote-controlled by a hacker?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>SIGFOX On-demand Downlink implementation prevents hacked remote-control.</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question18"/>
+		<label for="question18">Is SIGFOX resistant to signal injection? Replay attacks?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>SIGFOX includes integrity features that prevent spoofing or replays, based on a secret formula used for unambiguous object authentication</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<!--Start of Heading 7-->
+	<h3>Regulation</h3>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question19"/>
+		<label for="question19">What are the regulatory constraints?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>Products have to comply to local regulatory constraints in order to be legally sold on the local market, those constraints depend on the product field of application.<br><br>
+			In Europe, generic wireless product have to comply to Safety, EMC & immunity as well as radio compliance in order to obtain CE marking. Other compliance </p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question20"/>
+		<label for="question20">Does my product have to have both SIGFOX and CE certificate?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p><ul>
+			<li>SIGFOX certificate is not linked to CE certificate, both are required!</li>
+			<li>CE declaration of conformity is mandatory for commercialization in Europe.</li>
+			<li>SIGFOX certificate is a quality label mandatory for SIGFOX Service Level commitments.</li>
+			</ul></p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question21"/>
+		<label for="question21">Can SIGFOX transport 2kB data per day?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>
+			Under ISM regulation, SIGFOX transports up to 1.68 kByte / day / product. <br><br>
+			Smart use of an IoT optimized technology is 10-100 Bytes/day
+			</p>
+		</div>
+	</div>
+	
+	<div class="window">
+	<input type="checkbox" checked class="toggle" id="question22"/>
+		<label for="question22">Can I put 2 modems in one product to use more than 1% duty cycle?<img src="images/blackdownarrow.png"/></label>
+		<div>
+			<p>
+			Under ISM regulation, a product containing several 868MHz modems is seen as a single product. No cheating! 1% duty cycle is applicable, regardless of the number of modems inside!<br><br>
+			The same rule applies to synchronized objects. Multiple objects with synchronized ISM radios are considered one product: 1% duty cycle applies!
+			</p>
+		</div>
+	</div>
+
+	<br>
+	<br>	
+	
+   </div>
+ <div id="footer">
+	   <div class="column-left"><div class="dark"><h2>Overview</h2>
+	   <p>VT is the SIGFOX Network Operator In Ireland.
+	   Our network is a country wide Ultra Narrow band telecoms network 
+	   designed specifically for M2M & IoT communications.</p>	 
+	   <a href="about">About Us</a>
+<br>
+   <a href="jobs">Job Openings</a>
+	   </div></div>
+	   
+	   <div class="column-center"><div class="dark"><h2>News</h2>
+		<b> </b>
+		<br/>
+		<p> </p>
+		<a href="http://businessetc.thejournal.ie/how-iot-will-help-your-life-2566163-Jan2016/" target="_blank">Read More</a>
+	   </div></div>
+	 
+	   <div class="column-right"><div class="dark"><h2>Contact</h2>
+			<b>Dublin Office:</b> The Old Distillery Building, Beresford Street, Dublin 7, Ireland
+			<br>
+		<b>Phone:</b> +353 (0)1 5328958<br>
+		<b>Email:</b> info@vtnetworks.ie
+		<br><div id="center">
+		<a href="http://www.facebook.com/vtnetworksiot" target="_blank"><img src="images/social/facebook.png" class="desaturate" alt="facebook" title="Like Us on Facebook"/></a>
+		<a href="http://www.linkedin.com/company/vt-networks?expanded=true&trk=mini-profile" target="_blank"><img src="images/social/linkedin.png" class="desaturate" alt="linkedin" title="Connect with us on LinkedIn"/></a>
+		<a href="http://plus.google.com/+VtnetworksIeiot/posts" target="_blank"><img src="images/social/g.png" class="desaturate" alt="google+" title="Add Us on Google+"/></a>
+	</div></div></div>
+
+		<div id="finalcol">
+		Web Design Copyright &copy; Web Shed Web Design.
+		</div>
+	</div>
+	
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-67617747-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+<!-- Site Design Copyright Web Shed Web Design (Jeremy Rigney) -->

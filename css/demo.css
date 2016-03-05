@@ -1,0 +1,51 @@
+
+/*Moved:  .click-nav{*/
+
+
+.click-nav ul {
+	/*font-weight:900;*/
+}
+.click-nav ul li {
+	position:relative;
+	list-style:none;
+	cursor:pointer;
+	/*	z-index="52"*/
+
+}
+.click-nav ul li ul {
+
+	left:0;
+	right:0;
+}
+
+
+
+/*Moved:  .click-nav ul .clicker {*/
+.click-nav ul .clicker:hover,
+.click-nav ul .active {
+	background:#196F9A;
+			/*z-index="52"*/
+
+}
+
+.click-nav ul li a {
+	transition:background-color 0.3s linear;
+	-webkit-transition:background-color 0.3s linear;
+	-moz-transition:background-color 0.3s linear;
+	display:block;
+	padding:8px 10px 8px 40px;
+	background:#FFF;
+	color:#333;
+	text-decoration:none;
+	background-image:none;
+}
+.click-nav ul li a:hover {
+	background:#F2F2F2;
+}
+/* Fallbacks */
+.click-nav .no-js ul {
+	display:none;
+}
+.click-nav .no-js:hover ul {
+	display:block;
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Solutions &bull; VT Networks</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel=" icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="reference.css" />	
+	<link rel="stylesheet" type="text/css" href="solutions.css" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="user-scalable=0;"/>	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.anchor.js" type="text/javascript"></script>
+	 
+	<script src="js/main.js"></script>	
+
+	<script>
+		$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 400) {
+        $("#nav").addClass("scrolling");
+    } else {
+        $("#nav").removeClass("scrolling");
+    }
+});
+
+	$(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Disable" the horizontal scroll.
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); 
+</script>
+		
+</head>
+<body>
+
+	<div id="nav">
+		<button class="minimenu"></button>
+		<div id="nav_links">
+			<a href="http://www.vtnetworks.ie">Home</a>
+			<a href="iot">Internet of Things</a>
+			<a href="sigfox">SIGFOX Technology</a>
+			<a href="solutions">Solutions</a>
+			<a href="news">News</a>	
+			<a href="faq">FAQ</a>			
+			<a href="contact">Contact</a>
+		</div>
+	</div>
+	<a name="top"></a>
+				
+	<a href="http://www.vtnetworks.ie"><div id="logo"><img src="images/logo1.png" alt="Sigfox_Logo"/></div></a>
+
+			<div id="s3" class="scroll">
+			<div id="s3quote"></div>
+			</div>			
+			
+	<a href="#" class="scrollToTop"><img src="images/uparrow.png" /></a>
+
+			
+		<div id="desctop">
+					<h2>Solutions</h2>
+			<div id="desctop_col1">
+			<table>
+			<tr>
+			
+			<td><a href="#agriculture" title=""><div class="solutionlinks"><img src="images/cows.jpg" /></div><h3>Agriculture</h3></a></td>
+			<td><a href="#automotive" title=""><div class="solutionlinks"><img src="images/automotive.jpg" /></div><h3>Automotive</h3></a></td>
+			<td><a href="#construction" title=""><div class="solutionlinks"><img src="images/construction.jpg" /></div><h3>Construction</h3></a></td>
+			</tr>
+			<tr>
+			<td><a href="#electronics" title=""><div class="solutionlinks"><img src="images/electronics.jpg" /></div><h3>Consumer Electonics</h3></a></td>
+			<td><a href="#emergency" title=""><div class="solutionlinks"><img src="images/emergency.jpg" /></div><h3>Emergency Services and Security</h3></a></td>
+			<td><a href="#healthcare" title=""><div class="solutionlinks"><img src="images/healthcare_med.jpg" /></div><h3>Healthcare</h3></a></td>		
+			</tr>
+			<tr>
+			<td><a href="#buildings" title=""><div class="solutionlinks"><img src="images/buildings.jpg" /></div><h3>Intelligent Buildings</h3></a></td>
+			<td><a href="#manufacturing" title=""><div class="solutionlinks"><img src="images/manufacturing.png" /></div><h3>Manufacturing and Supply Chain</h3></a></td>
+			<td><a href="#retail+leisure" title=""><div class="solutionlinks"><img src="images/retail_leisure.jpg" /></div><h3>Retail &amp; Leisure</h3></a></td>
+			</tr>
+			<tr>
+			<td><a href="#smartcity" title=""><div class="solutionlinks"><img src="images/smartcity.jpg" /></div><h3>Smart City</h3></a></td>
+			<td><a href="#smartmetering" title=""><div class="solutionlinks"><img src="images/smartmetering.jpg" /></div><h3>Smart Metering</h3></a></td>
+			<td><a href="#logistics" title=""><div class="solutionlinks"><img src="images/smartlogisitcs.jpg" /></div><h3>Logistics</h3></a></td>
+		
+			</tr>
+			</table>
+			</div>	
+		</div>
+
+		<div id="s4" class="scroll">
+			<div id="s4quote"></div>
+		</div>
+<a name="agriculture"></a>
+	<div id="usefor">
+		 
+	<br/><h2>Agriculture and environment</h2>
+	<p>Farm processes and management have become increasingly automated, sharing in the convergence of IT, communications and automation found in other industries. Farming is in the middle of a digital revolution. Many solutions are possible such as <b>connected cows, smart irrigation systems, wireless fencing systems and sensors</b> that monitor <b>temperature</b> and <b>moisture</b> in soil. Unique applications revolve around the planting, cultivation, and harvesting of crops and the raising and slaughtering of livestock, but many application areas closely resemble those found in other sectors. The success of M2M solutions in the world of agriculture and food production is well known. In fact, some of the most effective means of <b>reducing processing costs</b> and improving yield have been through the deployment of M2M technology. 
+	<br/><br/>
+	Thanks to advancements in big data, technology and the Internet of Things, a new era of farming is emerging.
+	<br/><br/>
+	Cows are being connected to the internet to <b>help track the animal's health and improve their milk yield</b>. This is achieved by placing <b>electronic collars</b> on the cattle. The collars contain sensors that transmit data about the <b>animal's health</b> and the amount of milk being produced back to a central platform.
+	<br/><br/>
+	Also, <b>wireless sensors attached to cows&#39; tails</b> can alert a farmer when a cow is going into labour, while <b>radio-positioning tags</b> can monitor a herd's behaviour. If an animal starts behaving differently, the farmer can easily locate it to make sure it is not lame or sick.
+	<br/><br/>
+	Some of the use cases that become possible with the SIGFOX network relate to weather (<b>monitoring frost on fruit orchards and vineyards</b>); <b>irrigation control; soil condition</b> (moisture, acidity, etc); <b>security</b> (theft of livestock, farm equipment or crops); <b>monitoring the health</b> status of animals; measuring the <b>level and quality</b> of river water.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="automotive"></a>
+	<hr>
+	
+	<br/><h2>Automotive</h2>
+	<p>The automotive sector represents one of the greatest opportunities for machine-to-machine with a dedicated IoT focus on vehicle management and safety. From less than 90 million connections globally in 2011 the automotive M2M market will grow to almost <b>1.3 billion connections by the end of 2020</b>. Of these, one billion will be application-specific &#39;aftermarket&#39; devices, well over 300 million will be vehicle platforms supporting multiple applications. There are numerous vehicle-related applications that would benefit from being connected. Today the market is dominated by <b>security and tracking applications</b>. By 2020 the <b>emergency assistance device</b> will be the dominant type of connection on the back of regulatory mandates such as eCall in Europe, creating many after market opportunities.
+	<br/><br/>
+	In the coming years, the eCall will be a strongly developed feature. The SIGFOX network is in a position to enhance reliability of this new security feature, not only as the back-up for a GSM-based system (in case of network failure) but also for providing autonomous devices to be integrated in older vehicles.
+	<br/><br/>
+	Other solutions include <b>tracking, tamper alerts, car health monitoring, maintenance monitoring</b> and the ability to integrate new devices into older vehicles.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="construction"></a>
+	<hr>	
+	
+	<br/><h2>Construction</h2>
+	<p>
+	<b>Personnel</b> and <b>assets</b> are rarely in one place for a long period. Suppliers must coordinate and deliver to various locations at various times. Changes require instant communication and coordination in the field, however, like in other industries, cost is often a barrier to technology adoption. SIGFOX allows <b>cost effective and energy efficient solutions</b> to impact the operation and delivery of your business.
+	<br/><br/>
+	Some of the key opportunities for growth in M2M solutions include asset management tools to <b>monitor equipment and machines remotely without</b> having to purchase, deploy and operate site-specific network infrastructures. <b>Machine usage monitoring</b> provides the required visibility in order for machine management services, such as rental services, to bill for exact usage instead of having to "guesstimate" the usage time in hours. Securing construction sites requires a <b>secure alarm communication</b> that cannot easily be blocked by low-cost jammers or by cutting the communication cables. SIGFOX provides an extra level of security for very <b>low energy consumption</b> at a very <b>low cost</b>.
+	<br/><br/>
+	Autonomous and low-cost SIGFOX modems provide SIGFOX connectivity for sensors with mechanical constraints specific to the construction sector. Some of the possible use cases in this industry are: <b>Construction site theft and fire supervision, worker protection, real-time building monitoring and optimised fleet management</b> thanks to data on asset location.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	
+	<a name="electronics"></a>
+	<hr>
+	
+	<br/><h2>Consumer Electronics</h2>
+	<p>
+	The consumer electronics sector is undoubtedly one of the areas that will see the largest growth within the Internet of Things opportunity through the development of <b>new products, greater customer engagement</b> and collaboration with vertical industry sectors to provide compelling new services. Connectivity will become an integral part of our homes and daily lives.
+	<br/><br/>
+	Unleashing the full potential of connectivity in the consumer electronics industry requires the use of transparent <b>out-of-the-box connectivity.</b> WiFi-enabled products always struggle to become truly mainstream, because of the steps involved in connecting devices to the network. SIGFOX makes connectivity transparent and thus ultimately makes it easier for connected devices to be adoptable by the general public. Embedding SIGFOX into existing consumer electronics has very little impact on the cost of these products. White Goods is set to evolve from being product oriented, with no real loyalty mechanism, to being <b>service oriented</b> based upon regular interaction with the consumer.
+	<br/><br/>
+	As mentioned by Karim Houni from the <a href="http://www.groupeseb.com/en-en">SEB Group</a>: "When it comes to daily life products, like domestic appliances, SIGFOX UNB network won&#39;t be of any help pushing HD video for step-by-step recipes. But this <b>long range, low rate, low cost connection</b> could be the assistant sought by business technologists to create a better link with customers eager to have an always fully functional appliance."
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.	
+	
+	<a name="emergency"></a>
+	<hr>
+	
+	<br/><h2>Emergency Services and Security</h2>
+	<p>
+	There is a tremendous value to having data at any given time and IOT is a true force multiplier to minimizing losses and predicting risks before they happen. Whether for security personnel, law enforcers or first responders, information mobility is the critical component that enables them to quickly <b>make better decisions</b>. The ability to act on <b>sensor information</b> and <b>telemetry data</b> provides for unprecedented mission efficiency and life safety.
+	<br/><br/>
+	The security market is already well-established with a variety of entrenched specialist players. Services provided typically include building security systems such as <b>alarms</b> and CCTV, <b>fire detection</b> and<b> protection services</b> as well as <b>access control systems</b> and <b>elevator communication services</b>. Increasingly, these services require some form of connectivity to facilitate communication with the building owner and emergency services when the security system is breached. <b>Alarm systems represent</b> the largest opportunity within this application group and many homeowners and upmarket businesses in expensive urban areas already deploy a connected alarm service as part of a wider smart home solution, which might also enable remote management of HVAC and other systems.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="healthcare"></a>
+	<hr>
+	
+	<br/><h2>Healthcare</h2>
+	<p>
+	Global aging demographics and a worldwide chronic disease epidemic have imposed a vast economic cost burden on healthcare. This is forcing healthcare providers to find new ways to maintain the current quality of patient care. Moving costs and care away from the hospital and primary care environment requires a <b>new approach</b> to healthcare through connected solutions.
+	<br/><br/>
+	The healthcare industry today is facing many challenges and demand for services has never been higher. Connected solutions will be important for this sector which is dealing with an <b>ageing population</b>, growing demand for disease treatment, patient empowerment & healthcare reforms, while still having to <b>decrease expenditures</b>.
+	<br/><br/>
+	In this healthcare sector, <b>device size</b> and <b>ease-of-use</b> are key acceptance factors for persons under medical supervision. SIGFOX-ready devices differentiate from other connectivity solutions by significantly reducing the cost of buying and operating. SIGFOX will be a tremendous catalyst for the entire healthcare industry.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="buildings"></a>
+	<hr>
+	
+	<br/><h2>Intelligent Buildings</h2>
+	<p>
+	Intelligent Buildings is the second largest sector for M2M revenue, second only to Consumer Electronics, according to market research firms. Faced with rising energy costs, there is a huge incentive for commercial building owners and homeowners to <b>increase efficiencies and reduce energy</b> spend.
+	<br/><br/>
+	Monitoring systems in intelligent buildings and the occupant&#39;s behaviour continuously in <b>real time</b> will allow applications for building owners and occupants to anticipate and address potential problems or incidents. Sensors combined with analytics software that makes sense of disparate data points will <b>help facility managers</b> and home owners become far more proactive about managing buildings and the home environment at peak efficiency.
+	<br/><br/>
+	Buildings in most countries consume around 40% of total energy. Moreover, some reports suggest that up to 50% of this energy is wasted. It is evident therefore that there is a huge incentive for commercial building owners and facility managers to <b>increase efficiencies</b> and reduce energy spend. Likewise, in the face of rising energy costs, home owners are pursuing the same goals. In order to achieve these objectives, households, commercial and public sector building owners will deploy M2M-based solutions to achieve <b>higher levels of monitoring, control and automation of core building systems</b>. These systems include heating, ventilation and air-conditioning (HVAC) and lighting as well as security systems.	
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.	
+	
+	<a name="manufacturing"></a>
+	<hr>
+	
+	<br/><h2>Manufacturing and Supply Chain</h2>
+	<p>
+	The capabilities offered by SIGFOX technology help address the full range of major manufacturing and operational challenges that companies face. The challenges of cost pressure, the need for <b>greater visibility</b>, and new sources of risk are particularly suited to solutions built around SIGFOX protocol.
+	<br/><br/>
+	Operational efficiency drives IOT in manufacturing and the Supply Chain. The manufacturing and supply chain sector comprises a diverse group of applications, most of which run on very tight margins. The adoption of IOT technology is driven by the requirement to achieve efficiency savings. Investment in M2M is largely stimulated by the desire to <b>reduce wastage, optimize and reduce fuel consumption, monitor inventory levels and condition, enhance preventive maintenance</b> and render operational otherwise economically unviable assets such as remote wells.
+	<br/><br/>
+	SIGFOX is able to provide unique resolutions to these challenges, enabling <b>extremely small and power-efficient sensors</b>. Through its <b>wide area coverage</b> and managed network, factories and smart warehouses can now benefit from true visibility throughout the supply chain, managing overall processes and workflows whilst increasing quality and reducing the cost of disruptions.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.	
+		
+	<a name="retail+leisure"></a>	
+	<hr>
+	
+	<br/><h2>Retail &amp; Leisure</h2>
+	<p>
+	Retail is a highly competitive industry, with retailers facing multiple challenges on a daily basis. In order to keep their position in the market, retailers need to find a convenient method of maintaining an organized, <b>well-connected supply chain</b>, and to develop production plans that are in tune with the desires of their customers.
+	<br/><br/>
+	Implementation of M2M technologies can facilitate communication between supply chain players, <b>promote easier management of inventory</b>, and provide a complete shopping experience for the consumer. For example, SIGFOX Technology gives the retailer <b>real time visibility of inventory levels</b>, thus, providing useful information to maximize sales. Within retail stores, SIGFOX Technology can also enhance <b>customer satisfaction</b> by relying on automation and accurate customer segmentation to guide them through the whole shopping experience. Finally, SIGFOX Technology can also help develop innovative methods of communicating with customers.
+	<br/><br/>
+	The main themes in retail include the availability of adequate stock, in-store management and building relationships with customers. The success of a business depends mainly on a loyal group of customers who frequent its stores. In addition to this, it is also important to focus efforts on gradually expanding the customer base to include other age and income groups. This requires developing advertising and marketing techniques that encourage interaction with specific customer groups. SIGFOX's connectivity can help <b>develop innovative methods of communicating with customers</b> during a product's life cycle to <b>increase loyalty</b> while avoiding the inconvenience of registration, through <b>unique out-of-the-box connectivity</b>.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="smartcity"></a>
+	<hr>
+	
+	<br/><h2>Smart City</h2>
+	<p>
+	A Smart City must strive to be sustainbale and deliver high living standards. A Smart City leads the way towards <b>operational efficiency, cost effectiveness and CO2 neutrality</b>. Advances in smart technology increase social inclusion and combat poverty and deprivation.
+	<br/><br/>
+	In the end, a Smart City must be vibrant, being a great place to live. The Smart City should offer the best possible quality of life, with the lowest possible use of resources. SIGFOX solutions span a diverse range of public services and infrastructure including Public Transport (road, rail, air and sea transport as well as ticketing and passenger information systems), Intelligent traffic management (<b>Parking space management and payment, congestion charging and road tolls, traffic volume monitoring, connected road signs, traffic lights and enforcement cameras and in-vehicle congestion and toll devices</b>), Environment and public safety (CCTV, smart street lighting, <b>waste collection</b>, <b>public alarms</b> and tourist information services) and public space advertising (static advertising and bill boards).
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+
+	<a name="smartmetering"></a>
+	<hr>
+	
+	<br/><h2>Smart Metering</h2>
+	<p>
+	Energy is a critical resource. <b>Securing and managing supply</b> is a focus for all nations. A big driver within the utilities sector is regulatory demands such as the installation of smart meters and ensuring adequate supply, which includes avoiding leaks and managing spikes in demand.
+	<br/><br/>
+	<b>Educating consumers</b> about their energy use, avoiding theft, providing feedback to repair crews, lowering public safety risks, avoiding leaks and enhancing control are at the forefront of the SIGFOX smart metering solutions.
+	<br/><br/>
+	SIGFOX's <b>out-of-the-box</b> and trouble free technology significantly reduces the upfront and on-going cost burden associated with smart metering upgrades. Products using the technology have <b>autonomous lives of 12+ years</b> and provide <b>real time data</b> allowing utilities to have complete oversight over their network and energy supply. SIGFOX technology allows end users to learn more about their energy use and in time, reduce waste.
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<a name="logistics"></a>	
+	<hr>
+	
+	<br/><h2>Logistics</h2>
+	<p>
+	Asset tracking is an age-old solution, providing comfort to companies moving products from point to point. With SIGFOX Technology, third-party logistics providers and others are able to not only <b>track assets</b>, but also <b>check the condition of their goods</b> in transit.
+	<br/><br/>
+	Experience tells us that <b>visibility</b> to the supply chain is often more valuable to clients than the product itself. For example, a manufacturer shipping smartphones for a new product launch can check and monitor the exact <b>location</b> of the smartphones during shipment. Information like this is key to a client's ability to make vital <b>decisions</b>, especially with demand planning and sales forecasting.
+	<br/><br/>
+	To ensure our clients&#39; complete confidence, logistics service providers need technology to do more than merely track a shipment&#39;s location. Technology can now <b>check temperature, pressure, light exposure, humidity and vibration</b>. This ensures the cargo is in top condition when it arrives at its intended destination. Using the previous example, SIGFOX technology can determine if a shipment of smartphones arrived without damage from excessive exposure to sunlight or humidity. Technology can even tell if the smartphones endured a bumpy or smooth ride in transit.
+	<br/><br/>
+	In a recent survey on cargo, 88 percent of shipping companies said they want greater insight and visibility, and improved damage, loss and theft prevention. Organizations want their products delivered without the risk of spoilage, tampering or, in worst-case scenarios, hijacking.
+	<b>Data is fed directly from the sensors placed on cargo to a monitoring and tracking application</b>, equipped with a customizable and comprehensive dashboard, which allows logistics service providers to provide customers with <b>complete visibility</b>. The application also <b>pushes</b> near real-time information to end clients.
+	<br/><br/>
+	Theft is a long-time challenge in supply chain risk management. But modern technologies are giving companies more control. <b>Custom geo-fences</b> can be used to map the route of a shipment, and protect against theft by alerting logistics providers and their customers when cargo is delayed, tampered with or wanders outside its predetermined route.
+	<br/><br/>
+	SIGFOX allows true visibility of your shipments throughout the supply chain. <b>Monitoring of location, temperature, vibrations, tamepering, unexpected delays or stoppages</b> are the outputs possible at ultra-low cost and unrivalled autonomy. 
+	</p>
+	Please <a href="contact.html">contact info@vtnetworks.ie</a> to learn more about the solutions available.
+	
+	<br><br>
+	</div>
+	<br><br>
+  <div id="footer">
+   <div class="column-left"><div class="dark"><h2>Overview</h2>
+   <p>VT is the SIGFOX Network Operator In Ireland.
+   Our network is a country wide Ultra Narrow band telecoms network 
+   designed specifically for M2M & IoT communications.</p>	 
+   <a href="about">About Us</a>
+<br>
+   <a href="jobs">Job Openings</a>
+   </div></div>
+   
+   <div class="column-center"><div class="dark"><h2>News</h2>
+	<b> </b>
+	<br/>
+	<p> </p>
+	<a href="http://businessetc.thejournal.ie/how-iot-will-help-your-life-2566163-Jan2016/" target="_blank">Read More</a>
+   </div></div>
+ 
+   <div class="column-right"><div class="dark"><h2>Contact</h2>
+			<b>Dublin Office:</b> The Old Distillery Building, Beresford Street, Dublin 7, Ireland
+			<br/>
+		<b>Phone:</b> +353 (0)1 5328958<br>
+		<b>Email:</b> info@vtnetworks.ie
+		<br><div id="center">
+		<a href="http://www.facebook.com/vtnetworksiot"><img src="images/social/facebook.png" class="desaturate" alt="facebook" title="Like Us on Facebook"/></a>
+		<a href="http://www.linkedin.com/company/vt-networks?expanded=true&trk=mini-profile"><img src="images/social/linkedin.png" class="desaturate" alt="linkedin" title="Connect with us on LinkedIn"/></a>
+		<a href="http://plus.google.com/+VtnetworksIeiot/posts"><img src="images/social/g.png" class="desaturate" alt="google+" title="Add Us on Google+"/></a>
+	</div></div></div>
+
+	<div id="finalcol">
+	Web Design Copyright &copy; Web Shed Web Design.
+	</div>
+   
+   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-67617747-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+<!--Site Design Copyright Web Shed Web Design (Jeremy Rigney)-->

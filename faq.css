@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+@-ms-viewport{
+  width: device-width;
+}
+
+#nav{
+	/*background-color:#1B7D8F;*/
+}
+#nav:hover{
+	/*background-color:#1B7D8F;*/
+	opacity:1;
+}
+#nav.scrolling:hover{
+	background-color:#fff;
+	opacity:1;
+}
+
+#logo.scrolling{
+	margin-top:5px;
+}
+
+#s3{
+	background-image: url('images/connworld.jpg');
+    height:240px;
+}
+#s3quote{
+	color:#fff;
+	font-size:70px;
+	font-family:menufont;
+}
+
+#desctop{
+	margin-top:20px;
+	width:100%;
+	height:100%;
+	background-color:#E9E9E9;
+	text-align:center;
+	font-family: 'Lato',Helvetica Neue,Helvetica,sans-serif;
+	line-height:1.7;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	font-weight:300;
+	font-size:17px;
+	margin-bottom:40px;
+	
+}
+
+#desctop h2{
+	color:#000;
+	margin:0px auto;
+	padding-top:50px;
+	font-size:40px;
+}
+
+b{
+	color:#1B7D8F;
+}
+
+div.window {
+	color: #000;
+	width: 60%;
+	border:2px solid #dfdddd;
+	background: #fff;
+	text-align: center;
+	font-family:Lato,sans-serif;
+	margin:0px auto;
+	margin-bottom:5px;
+}
+
+div.window div {
+	/*height: 200px;*/
+	max-height: 0;
+	margin: 0px;
+	overflow: hidden;
+	font-size:16px;
+-webkit-transition: max-height 0.4s linear;
+	-moz-transition: max-height 0.4s linear;
+	transition: max-height 0.4s linear;
+}
+
+input.toggle ~ div {
+	max-height: 250px;
+	padding:0px;
+	text-align:left;
+	overflow: hidden;
+-webkit-transition: max-height 0.4s linear;
+	-moz-transition: max-height 0.4s linear;
+	transition: max-height 0.4s linear;
+	
+}
+
+input.toggle:checked ~ div {
+	max-height: 0px;
+	margin:0px;
+
+}
+
+input.toggle { display: none; }
+
+div.window label {
+	display: block;
+	transition:0.2s linear;
+	background: #fff;
+	padding: 5px;
+	font-family:Lato,sans-serif;
+	font-weight:400;
+	color:#000;
+	font-size:18px;
+}
+
+div.window label:hover,
+	div.window label:focus {
+		cursor: pointer;
+		transition:0.2s linear;
+		background: #F2F2F2;
+}
+
+input.toggle:checked + label {
+	background:#fff;
+	color:#000;
+	transition:0.2s linear;
+}
+input.toggle:checked + label:hover {
+	color:#1B7D8F;
+}
+
+div.window label img{
+	height:35px;
+	width:35px;
+	float:right;
+	
+}
+div.window p{	
+	margin-left:30px;
+	
+}
+
+
+#desctop h3{
+	font-family:'Lato', sans-serif;
+	font-size:25px;
+	text-align:center;	
+	color:#1B7D8F;
+}
+
+/*MEDIA QUERIES*/
+
+/*v.large screen, at least 1400 pixels wide */
+@media screen and (min-width: 1400px) {
+	#desctop_col1 img{
+		float:right;
+		width:45%;
+		padding:15px;	
+		height:220px;
+	}
+}
+
+/*Tiny fix for 1280 browsers*/
+@media screen and (max-width: 1280px) {
+
+
+}
+
+/* medium screen, under 950 pixels wide */
+@media screen and (max-width: 950px) {
+
+
+#desctop{
+	height:100%;
+
+}
+
+}
+
+/*  medium screen, under 850 pixels wide */
+@media screen and (max-width: 850px) {
+
+
+#section1{
+	width:100%;
+}
+#desctop{
+	width:85%;
+}
+#desctop_col1 img{
+	width:90%;
+	height:80px;
+	position:relative;
+	left:-20px;
+	margin:0px auto;
+}
+
+#desctop_col1 p{
+	width:90%;
+	margin:0px auto;
+}
+#desctop_col2 img{
+	width:90%;
+	height:80px;
+	position:relative;
+	margin:0px auto;
+}
+
+#desctop_col2 p{
+	width:90%;
+	margin:0px auto;
+	margin-top: 10px;
+    overflow:initial;
+    display:inline;
+	padding:15px;
+	float:left;	
+}
+
+.article img{
+	width:350px;
+	margin:0px auto;
+	width:100%;
+	
+}
+}
+
+/* v.small screen, under 567 pixels wide */
+@media screen and (max-width: 650px) {
+
+#anchor1{
+	display:none;
+}
+
+
+#section1{
+	height:100%;
+	width:100%;
+	margin-top:100%;	
+	border-top:2px solid #1B7D8F;
+	background-color:#E9E9E9;
+}
+
+#desctop{
+	width:100%;
+	height:100%;
+	background-color:#fdfdfd;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:40px;
+	padding:5px;
+	font-size:15px;
+}
+#desctop_col1{
+	width:80%;
+	border:1px solid #DFDDDD;
+}
+#desctop_col1 p{
+	margin-left: 0px;
+    overflow:initial;
+	margin:15px;
+    display:block;
+	width:90%;
+}
+#desctop_col1 img{
+	width:90%;
+	margin-left:150px;
+	height:80px;
+	margin:0px auto;
+}
+#desctop_col2{
+	width:80%;
+	border:1px solid #DFDDDD;
+}
+#desctop_col2 p{
+	margin:0px auto;
+	margin-left:15px;
+	width:80%;
+}
+#desctop_col2 img{
+	display:none;
+}
+
+
+
+}
